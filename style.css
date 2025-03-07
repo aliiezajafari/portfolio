@@ -1,0 +1,201 @@
+h1{
+    color: #111111;
+    text-align: center;
+    direction: rtl;
+    font-family: yekan-bakh-bold;
+    }
+    h2{
+        color: white;
+        text-align: center;
+        direction: rtl;
+        font-family: yekan-bakh-bold;
+        }
+    h3{
+            color: #111111;
+            text-align: center;
+            direction: rtl;
+            font-family: yekan-bakh-bold;
+        }    
+.menu {
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 100px;;
+    }
+
+.menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+.menu ul li {
+        margin: 0 80px;
+    }
+
+.menu ul li a {
+        font-family: yekan-bakh-bold;
+        text-decoration: none;
+        color: white;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+.menu ul li a:hover {
+        font-family: yekan-bakh-bold;
+        border-radius: 5px;
+        color:rgb(113, 110, 110);
+    }
+.menu img {
+        height: 95px;
+        width: auto;
+    }
+    .default-avatar{
+        display: flex;
+        align-items: center;
+        /*height: 100px;*/
+        /* display: block; */
+        gap: 20px;
+        padding-right: 100px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        justify-content: center;
+        
+    }
+    .text{
+        display: flex;
+    flex-direction: column;
+    }
+.default-avatar img{
+    max-width: 15%;
+    height: auto;
+    
+}    
+.sub-text {
+    font-size: 18px; 
+    color: #666; 
+    margin-top:0;
+}
+
+.bio{
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    /*height: 100px;*/
+    /* display: block; */
+    gap: 80px;
+    
+    margin-top: 50px;
+    margin-bottom: 75px;
+    
+     
+}
+.text2{
+    color: white;
+    display: flex;
+    align-items: center;
+    /*height: 100px;*/
+    /* display: block; */
+    
+    padding: 60px;
+    margin-top: 20px;
+    flex-direction: column;
+    border: 5px solid rgb(86, 81, 81);
+    border-radius: 25px;
+}
+.text3{
+    color: white;
+    display: flex;
+    align-items: center;
+    /*height: 100px;*/
+    /* display: block; */
+    
+    padding: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    flex-direction: column;
+    border: 5px solid rgb(86, 81, 81);
+    border-radius: 25px;
+}
+.text4{
+    color: white;
+    display: flex;
+    align-items: center;
+    /*height: 100px;*/
+    /* display: block; */
+    
+    padding: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+    flex-direction: column;
+    border: 5px solid rgb(86, 81, 81);
+    border-radius: 25px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.image-item {
+    background-color: #111111;
+    border-radius: 25px;
+    flex: 1 1 calc(33.333% - 20px); /* هر سطر 3 تصویر با فاصله */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-item p {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.footer {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li {
+    margin: 0 80px;
+}
+
+.footer ul li a {
+    font-family: yekan-bakh-bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+
+.footer img {
+    height: 90px;
+    width: auto;
+}
