@@ -15,7 +15,12 @@ h1{
             text-align: center;
             direction: rtl;
             font-family: yekan-bakh-bold;
-        }    
+        }
+@media (max-width:768px){
+    .media {
+        flex-direction: column;
+    }
+}            
 .menu {
         background-color: #111111;
         display: flex;
@@ -85,6 +90,7 @@ h1{
 .bio{
     background-color: #111111;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     /*height: 100px;*/
     /* display: block; */
@@ -92,7 +98,7 @@ h1{
     
     margin-top: 50px;
     margin-bottom: 75px;
-    
+
      
 }
 .text2{
@@ -151,7 +157,7 @@ h1{
 .image-item {
     background-color: #111111;
     border-radius: 25px;
-    flex: 1 1 calc(33.333% - 20px); /* هر سطر 3 تصویر با فاصله */
+    flex: 1 1 calc(33.333% - 20px); 
     box-sizing: border-box;
     text-align: center;
 }
